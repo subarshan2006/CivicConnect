@@ -85,7 +85,7 @@ function DashboardPage() {
   const { role } = useParams({ from: "/dashboard/$role" }) as { role: Role };
   const r = (user?.role ?? role) as Role;
   const titleMap: Record<Role, [string, string]> = {
-    citizen: ["Namaste, welcome back", "Track your civic contributions and city progress"],
+    citizen: ["Welcome back", "Track your civic contributions and city progress"],
     ward: ["Ward 42 Command Center", "Manage queue, verify complaints and monitor SLAs"],
     department: ["Electrical Department", "Assign engineers, track budget and completion reports"],
     field: ["Today's field tasks", "Navigate to sites, capture evidence and mark completion"],
