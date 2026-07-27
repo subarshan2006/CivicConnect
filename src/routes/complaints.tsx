@@ -10,12 +10,12 @@ import type { ComplaintStatus } from "@/lib/types";
 export const Route = createFileRoute("/complaints")({
   head: () => ({
     meta: [
-      { title: "Complaints · CivicConnect AI" },
+      { title: "Complaints · PRAMAAN" },
       {
         name: "description",
         content: "Browse, filter and manage the full complaint queue across wards and departments.",
       },
-      { property: "og:title", content: "Complaints · CivicConnect AI" },
+      { property: "og:title", content: "Complaints · PRAMAAN" },
       {
         property: "og:description",
         content: "The full civic complaint queue for Indian Smart Cities.",

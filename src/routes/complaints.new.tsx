@@ -19,13 +19,13 @@ import { toast } from "sonner";
 export const Route = createFileRoute("/complaints/new")({
   head: () => ({
     meta: [
-      { title: "Report Complaint · CivicConnect AI" },
+      { title: "Report Complaint · PRAMAAN" },
       {
         name: "description",
         content:
           "Report a civic issue with photo evidence, GPS location and voice notes. AI auto-detects category, priority and department.",
       },
-      { property: "og:title", content: "Report Complaint · CivicConnect AI" },
+      { property: "og:title", content: "Report Complaint · PRAMAAN" },
       {
         property: "og:description",
         content: "Report a civic issue with AI-assisted classification.",
@@ -192,7 +192,7 @@ function NewComplaint() {
               </div>
               <div>
                 <div className="text-sm font-semibold">AI Analysis</div>
-                <div className="text-xs text-muted-foreground">Powered by CivicConnect Vision</div>
+                <div className="text-xs text-muted-foreground">Powered by PRAMAAN Vision</div>
               </div>
             </div>
             <AnimatePresence mode="wait">

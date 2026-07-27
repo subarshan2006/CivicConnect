@@ -7,13 +7,13 @@ import { useState } from "react";
 export const Route = createFileRoute("/map")({
   head: () => ({
     meta: [
-      { title: "Complaint Map · CivicConnect AI" },
+      { title: "Complaint Map · PRAMAAN" },
       {
         name: "description",
         content:
           "Interactive India map with complaint markers, category filters and priority heatmap.",
       },
-      { property: "og:title", content: "Complaint Map · CivicConnect AI" },
+      { property: "og:title", content: "Complaint Map · PRAMAAN" },
       { property: "og:description", content: "National complaint map with filters." },
     ],
   }),

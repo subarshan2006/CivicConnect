@@ -35,13 +35,13 @@ import { useAuth } from "@/lib/auth";
 export const Route = createFileRoute("/dashboard/$role")({
   head: () => ({
     meta: [
-      { title: "Dashboard · CivicConnect AI" },
+      { title: "Dashboard · PRAMAAN" },
       {
         name: "description",
         content:
           "Personalized government dashboard for citizens, ward officers, departments, field staff, inspectors and administrators.",
       },
-      { property: "og:title", content: "Dashboard · CivicConnect AI" },
+      { property: "og:title", content: "Dashboard · PRAMAAN" },
       { property: "og:description", content: "Personalized government Smart City dashboard." },
     ],
   }),

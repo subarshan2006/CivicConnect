@@ -306,7 +306,7 @@ export const NOTIFICATIONS = Array.from({ length: 18 }).map((_, i) => ({
 }));
 
 export const CHATS = [
-  { from: "system", text: "You are chatting with the CivicConnect AI Assistant.", time: "09:12" },
+  { from: "system", text: "You are chatting with the PRAMAAN Assistant.", time: "09:12" },
   {
     from: "user",
     text: "The street light in front of my house has been broken for 3 days.",

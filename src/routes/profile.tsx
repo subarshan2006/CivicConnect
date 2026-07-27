@@ -8,12 +8,12 @@ import { StatusBadge } from "@/components/status-badge";
 export const Route = createFileRoute("/profile")({
   head: () => ({
     meta: [
-      { title: "Profile · CivicConnect AI" },
+      { title: "Profile · PRAMAAN" },
       {
         name: "description",
         content: "Your civic contribution score, complaints history, achievements and rewards.",
       },
-      { property: "og:title", content: "Profile · CivicConnect AI" },
+      { property: "og:title", content: "Profile · PRAMAAN" },
       { property: "og:description", content: "Your civic profile and contributions." },
     ],
   }),

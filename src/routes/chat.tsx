@@ -8,13 +8,13 @@ import { useState } from "react";
 export const Route = createFileRoute("/chat")({
   head: () => ({
     meta: [
-      { title: "Chat · CivicConnect AI" },
+      { title: "Chat · PRAMAAN" },
       {
         name: "description",
         content:
-          "Modern messaging between citizens, government officers and the CivicConnect AI assistant.",
+          "Modern messaging between citizens, government officers and the PRAMAAN assistant.",
       },
-      { property: "og:title", content: "Chat · CivicConnect AI" },
+      { property: "og:title", content: "Chat · PRAMAAN" },
       { property: "og:description", content: "Real-time civic messaging." },
     ],
   }),
@@ -56,7 +56,7 @@ function ChatPage() {
       <div className="grid gap-6 lg:grid-cols-[280px_1fr]">
         <div className="glass rounded-2xl p-3">
           {[
-            { name: "CivicConnect AI", role: "AI Assistant", icon: Sparkles, active: true },
+            { name: "PRAMAAN", role: "AI Assistant", icon: Sparkles, active: true },
             { name: "Rajesh Verma", role: "Ward Officer", icon: Building2 },
             { name: "Priya Iyer", role: "Dept Officer", icon: Building2 },
             { name: "Support Team", role: "Grievance Cell", icon: User },
@@ -79,7 +79,7 @@ function ChatPage() {
 
         <div className="glass flex h-[70vh] flex-col rounded-2xl">
           <div className="border-b border-border/50 px-5 py-3">
-            <div className="font-semibold">CivicConnect AI</div>
+            <div className="font-semibold">PRAMAAN</div>
             <div className="text-[11px] text-success">● Online · Typically replies instantly</div>
           </div>
           <div className="flex-1 space-y-3 overflow-y-auto p-5">
@@ -147,7 +147,7 @@ function ChatPage() {
                 value={text}
                 onChange={(e) => setText(e.target.value)}
                 onKeyDown={(e) => e.key === "Enter" && send()}
-                placeholder="Message CivicConnect AI…"
+                placeholder="Message PRAMAAN…"
                 className="flex-1 bg-transparent text-sm outline-none"
               />
               <button onClick={send} className="rounded-lg gov-gradient p-2 text-white">

@@ -10,13 +10,13 @@ import { ComplaintMap } from "@/components/complaint-map";
 export const Route = createFileRoute("/complaints/track")({
   head: () => ({
     meta: [
-      { title: "Track Complaint · CivicConnect AI" },
+      { title: "Track Complaint · PRAMAAN" },
       {
         name: "description",
         content:
           "Real-time animated timeline of your complaint from submission to citizen verification.",
       },
-      { property: "og:title", content: "Track Complaint · CivicConnect AI" },
+      { property: "og:title", content: "Track Complaint · PRAMAAN" },
       { property: "og:description", content: "Real-time complaint timeline." },
     ],
   }),

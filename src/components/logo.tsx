@@ -9,7 +9,7 @@ export function Logo({ compact = false }: { compact?: boolean }) {
       </div>
       {!compact && (
         <div className="leading-tight">
-          <div className="text-sm font-bold tracking-tight text-gradient">CivicConnect AI</div>
+          <div className="text-sm font-bold tracking-tight text-gradient">PRAMAAN</div>
           <div className="text-[10px] font-medium uppercase tracking-wider text-muted-foreground">
             Government of India · Smart City
           </div>

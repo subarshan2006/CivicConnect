@@ -15,13 +15,13 @@ import {
 export const Route = createFileRoute("/workflow")({
   head: () => ({
     meta: [
-      { title: "Workflow · CivicConnect AI" },
+      { title: "Workflow · PRAMAAN" },
       {
         name: "description",
         content:
           "Visual civic complaint workflow — from citizen intake to inspector approval and citizen verification.",
       },
-      { property: "og:title", content: "Workflow · CivicConnect AI" },
+      { property: "og:title", content: "Workflow · PRAMAAN" },
       { property: "og:description", content: "Animated civic complaint workflow." },
     ],
   }),

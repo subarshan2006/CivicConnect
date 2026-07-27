@@ -7,13 +7,13 @@ import { Bell, ShieldCheck, TrendingUp, MessageCircle } from "lucide-react";
 export const Route = createFileRoute("/notifications")({
   head: () => ({
     meta: [
-      { title: "Notifications · CivicConnect AI" },
+      { title: "Notifications · PRAMAAN" },
       {
         name: "description",
         content:
           "Government advisories, complaint updates, escalations and citizen verification requests.",
       },
-      { property: "og:title", content: "Notifications · CivicConnect AI" },
+      { property: "og:title", content: "Notifications · PRAMAAN" },
       { property: "og:description", content: "All civic notifications in one place." },
     ],
   }),

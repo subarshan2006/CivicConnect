@@ -19,13 +19,13 @@ import { motion } from "framer-motion";
 export const Route = createFileRoute("/complaints/$id")({
   head: () => ({
     meta: [
-      { title: "Complaint Details · CivicConnect AI" },
+      { title: "Complaint Details · PRAMAAN" },
       {
         name: "description",
         content:
           "Complete complaint lifecycle: timeline, photos, officer notes, verification and citizen rating.",
       },
-      { property: "og:title", content: "Complaint Details · CivicConnect AI" },
+      { property: "og:title", content: "Complaint Details · PRAMAAN" },
       { property: "og:description", content: "Complete civic complaint lifecycle." },
     ],
   }),

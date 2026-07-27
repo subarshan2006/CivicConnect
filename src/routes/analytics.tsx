@@ -8,13 +8,13 @@ import { Activity, Timer, Wallet, Users } from "lucide-react";
 export const Route = createFileRoute("/analytics")({
   head: () => ({
     meta: [
-      { title: "Analytics · CivicConnect AI" },
+      { title: "Analytics · PRAMAAN" },
       {
         name: "description",
         content:
           "Pie, bar, line and area charts covering complaints, departments, budgets and officer productivity.",
       },
-      { property: "og:title", content: "Analytics · CivicConnect AI" },
+      { property: "og:title", content: "Analytics · PRAMAAN" },
       { property: "og:description", content: "Deep civic analytics dashboards." },
     ],
   }),

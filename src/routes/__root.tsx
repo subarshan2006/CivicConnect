@@ -71,7 +71,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "CivicConnect AI · Smart City Grievance Platform" },
+      { title: "PRAMAAN · Smart City Grievance Platform" },
       {
         name: "description",
         content:

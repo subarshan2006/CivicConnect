@@ -24,13 +24,13 @@ import { cn } from "@/lib/utils";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Sign in · CivicConnect AI Smart City Platform" },
+      { title: "Sign in · PRAMAAN Smart City Platform" },
       {
         name: "description",
         content:
           "Sign in to the Government of India Smart City complaint management portal — citizens, ward officers, department officers, field staff, inspectors and administrators.",
       },
-      { property: "og:title", content: "Sign in · CivicConnect AI" },
+      { property: "og:title", content: "Sign in · PRAMAAN" },
       {
         property: "og:description",
         content: "Government of India Smart City complaint management portal.",
@@ -119,7 +119,7 @@ function LoginPage() {
               <span className="text-white/80">One complaint at a time.</span>
             </h2>
             <p className="max-w-md text-sm text-white/70">
-              CivicConnect AI unifies citizens, ward officers, departments, field staff and quality
+              PRAMAAN unifies citizens, ward officers, departments, field staff and quality
               inspectors into one intelligent grievance redressal system for India's Smart Cities.
             </p>
             <div className="flex gap-8 pt-4 text-sm">
@@ -160,7 +160,7 @@ function LoginPage() {
               className="mt-1 text-2xl font-bold tracking-tight"
               style={{ fontFamily: "Sora, Inter, sans-serif" }}
             >
-              Welcome to CivicConnect AI
+              Welcome to PRAMAAN
             </h1>
             <p className="mt-1 text-sm text-muted-foreground">
               Choose your role and sign in with your government credentials.
@@ -288,7 +288,7 @@ function LoginPage() {
           )}
 
           <p className="pt-1 text-center text-[11px] text-muted-foreground">
-            Secured by CivicConnect Trust · An initiative of Ministry of Housing & Urban Affairs
+            Secured by PRAMAAN Trust · An initiative of Ministry of Housing & Urban Affairs
           </p>
         </motion.form>
       </div>

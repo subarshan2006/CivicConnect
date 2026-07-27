@@ -1,4 +1,4 @@
-# CivicConnect AI
+# PRAMAAN
 
 Smart City Grievance Platform — AI-powered civic complaint management for Indian Smart Cities.
 

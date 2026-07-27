@@ -18,13 +18,13 @@ import { ChartArea, ChartBar } from "@/components/charts";
 export const Route = createFileRoute("/ai")({
   head: () => ({
     meta: [
-      { title: "AI Insights · CivicConnect AI" },
+      { title: "AI Insights · PRAMAAN" },
       {
         name: "description",
         content:
           "AI-driven image classification, duplicate detection, priority prediction and resolution forecasting for civic complaints.",
       },
-      { property: "og:title", content: "AI Insights · CivicConnect AI" },
+      { property: "og:title", content: "AI Insights · PRAMAAN" },
       { property: "og:description", content: "AI-driven civic complaint intelligence." },
     ],
   }),

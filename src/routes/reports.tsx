@@ -6,13 +6,13 @@ import { toast } from "sonner";
 export const Route = createFileRoute("/reports")({
   head: () => ({
     meta: [
-      { title: "Reports · CivicConnect AI" },
+      { title: "Reports · PRAMAAN" },
       {
         name: "description",
         content:
           "Generate and download PDF, Excel and CSV reports for departments, wards, officers and citizens.",
       },
-      { property: "og:title", content: "Reports · CivicConnect AI" },
+      { property: "og:title", content: "Reports · PRAMAAN" },
       { property: "og:description", content: "Custom civic reporting suite." },
     ],
   }),

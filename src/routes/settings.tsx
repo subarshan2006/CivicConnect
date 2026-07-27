@@ -16,14 +16,14 @@ import {
 export const Route = createFileRoute("/settings")({
   head: () => ({
     meta: [
-      { title: "Settings · CivicConnect AI" },
+      { title: "Settings · PRAMAAN" },
       {
         name: "description",
         content:
           "Manage departments, categories, users, roles, permissions, notifications, themes, languages and audit logs.",
       },
-      { property: "og:title", content: "Settings · CivicConnect AI" },
-      { property: "og:description", content: "Administrative settings for CivicConnect AI." },
+      { property: "og:title", content: "Settings · PRAMAAN" },
+      { property: "og:description", content: "Administrative settings for PRAMAAN." },
     ],
   }),
   component: SettingsPage,
